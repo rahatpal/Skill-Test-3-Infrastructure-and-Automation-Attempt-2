@@ -1,0 +1,21 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+crash.log
+crash.*.log
+*.pem
+*.ppk
+*.key
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+# Local working guides are excluded from the GitHub submission.
+SCREENSHOT_CHECKLIST.md
+STEP_BY_STEP_GUIDE.md
+# Keep .terraform.lock.hcl in Git to pin provider versions and checksums.
